@@ -77,6 +77,7 @@ public class MyRecipes extends AppCompatActivity implements LoaderManager.Loader
     @Override
     public void onLoaderReset(Loader<Cursor> loader) {
         mCursorAdapter.swapCursor(null);
+        // new comments
 
     }
 
